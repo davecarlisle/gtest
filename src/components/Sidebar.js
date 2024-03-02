@@ -2,10 +2,10 @@
 import React, { useContext } from 'react';
 import { ThemeContext } from 'styled-components';
 import { Avatar, Box, Button, Text, Sidebar, Nav } from 'grommet';
-import { Calculator, Deliver, Nodes, Money, Support, Notification, Clock, Apps, Terminal, Chat, StatusUnknown, HelpOption } from 'grommet-icons';
+import { Calculator, Nodes, Support, Clock } from 'grommet-icons';
 
 const AppSidebar = () => {
-  const theme = useContext(ThemeContext);
+  //const theme = useContext(ThemeContext);
   return (
     <Sidebar background="#00739D" elevation="medium" pad="8px" align="start" round="small"
       header={

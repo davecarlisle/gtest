@@ -4,7 +4,6 @@ import {
   Box,
   Button,
   Header,
-  Keyboard,
   ResponsiveContext,
   Text,
   Nav,
@@ -12,11 +11,11 @@ import {
   TextInput,
   Tip
 } from 'grommet';
-import { Search as SearchIcon, Hpe, User, Slack, HelpOption, Notification} from 'grommet-icons';
+import { Hpe, User, Slack, HelpOption, Notification} from 'grommet-icons';
 
-const StyledTextInput = styled(TextInput).attrs(() => ({
-  'aria-labelledby': 'search-icon-example',
-}))``;
+// const StyledTextInput = styled(TextInput).attrs(() => ({
+//   'aria-labelledby': 'search-icon-example',
+// }))``;
 
 const AppHeader = () => {
   const size = useContext(ResponsiveContext);

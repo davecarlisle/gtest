@@ -1,6 +1,6 @@
 // FooterExample.js
 import React, { useContext } from 'react';
-import { Box, Button, Footer, ResponsiveContext, Text, Anchor } from 'grommet';
+import { Box, Footer, ResponsiveContext, Text, Anchor } from 'grommet';
 
 const AppFooter = () => {
   const size = useContext(ResponsiveContext);
