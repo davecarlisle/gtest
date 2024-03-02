@@ -7,7 +7,7 @@ import { Calculator, Nodes, Support, Clock } from 'grommet-icons';
 const AppSidebar = () => {
   //const theme = useContext(ThemeContext);
   return (
-    <Sidebar background="#00739D" elevation="medium" pad="8px" align="start" round="small"
+    <Sidebar background="#00739D" elevation="medium" pad="8px" align="start" 
       header={
         <Avatar src="//s.gravatar.com/avatar/b7fb138d53ba0f573212ccce38a7c43b?s=80" />
       }
