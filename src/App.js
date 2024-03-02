@@ -1,4 +1,4 @@
-import { Grommet, Collapsible, Box, Card, CardHeader, Image, CardFooter, CardBody, Heading, Text, Button, Grid } from 'grommet';
+import { Grommet, Collapsible, Box, Card, CardHeader, Image, CardFooter, CardBody, Text, Button } from 'grommet';
 import { hpe } from 'grommet-theme-hpe';
 import { Favorite } from 'grommet-icons';
 import { Header, Sidebar, Footer, Notification } from './components';
@@ -6,7 +6,8 @@ import React, { useState } from "react";
 
 function App() {
 
-  const [showSidebar, setShowSidebar] = useState(true);
+  //const [showSidebar, setShowSidebar] = useState(true);
+  const [showSidebar] = useState(true);
 
   return (
     <Grommet className="App" theme={hpe} full>

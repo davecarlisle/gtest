@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useRef, useState } from 'react';
-import styled from 'styled-components';
+//import styled from 'styled-components';
 import {
   Box,
   Button,
@@ -8,7 +8,7 @@ import {
   Text,
   Nav,
   Anchor,
-  TextInput,
+//  TextInput,
   Tip
 } from 'grommet';
 import { Hpe, User, Slack, HelpOption, Notification} from 'grommet-icons';

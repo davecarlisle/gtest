@@ -1,6 +1,6 @@
 // SidebarExample.js
-import React, { useContext } from 'react';
-import { ThemeContext } from 'styled-components';
+//import React, { useContext } from 'react';
+//import { ThemeContext } from 'styled-components';
 import { Avatar, Box, Button, Text, Sidebar, Nav } from 'grommet';
 import { Calculator, Nodes, Support, Clock } from 'grommet-icons';
 
